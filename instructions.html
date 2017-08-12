@@ -1,620 +1,107 @@
-<div id="game-app row">
-   <div class="">
-       <div class="col-lg-12 col-md-12 game-instructions">
-          <div class="panel panel-default">
-              <div class="panel-body">
-               <br>
-                <h2 class="text-success">How to play:</h2>
-                <br>
-              </div>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>ABC GAME FOR AURIA</title>
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/Main.css">
+      <!--    card flip animation -->
+      <link rel="stylesheet" href="css/card-flip.css">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!--    card flip animation -->
+      <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+   </head>
+   <body>
+   <div class="row">
+         <nav class="navbar navbar-default nav-style-position navbar-fixed-top" role="navigation">
+            <div class="container">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand visible-xs-inline-block logo-link" href="">ABC's</a>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse navbar-ex1-collapse">
+                  <ul class="navbar-nav pill-placement-style nav js-nav-add-active-class">
+                      <li><a href="index.html">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;Home&nbsp;&nbsp;</button>
+                          </a>
+                      </li>
+                      <li><a href="#">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;ABC's&nbsp;&nbsp;</button>
+                          </a>
+                      </li>
+                      <li><a href="#">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;123's&nbsp;&nbsp;</button>
+                          </a>
+                      </li>
+                      <li><a href="instructions.html">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;Instructions&nbsp;&nbsp;</button>
+                          </a>
+                      </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right hidden-xs">
+                     <a type="button" class="navbar-btn btn btn-gradient-blue logo-link" am-latosans="bold" href="">ABC's</a>
+                  </ul>
+               </div>
+               <!-- /.navbar-collapse -->
+            </div>
+         </nav>
+         <!--  End of the nav area-->
+      </div>
+      <!--  End of the row -->
+      <div class="jumbotron col-sm-12 col-md-12 col-lg-12 home-banner-add">
+         <div class="container">
+            <h1 class="header-text"> A fun game to learn 1..2..3 <br> Let's learn how to add.</h1>
+            <div class="row">
+               <div class="col-md-12 col-sm-12 col-lg-12 center-buttons">
+                  <button type="button" class="btn btn-lg btn-success game-head-buttons indivisual-links">&nbsp;&nbsp;Lets play&nbsp;&nbsp;</button> <!--Or &nbsp; &nbsp; &nbsp;-->
+               </div>
+               <!-- end of center-buttons -->
+            </div>
+            <!--end of row -->
+         </div>
+         <!-- end of container-->
+      </div>
+      <!--   End of the home-banner area-->
+      <Section class="add-game">
+      <div class="container-fluid">
+         <div class="row adding-cards">
+          <div class="col-sm-12 col-md-12 col-lg-6 add-card-styles panel panel-default">
+          <div class=" panel-body">
+            <div class=" row col-lg-12">
+               <div class="col-lg-5 input-lg "> 
+                   <input class="qty " name="qty1" type="text" class="form-control" placeholder="1" aria-describedby="sizing-addon1"/>
+               </div> 
+                <div class="col-lg-5 input-lg"> 
+                    <input class="qty " name="qty2" type="text" class="form-control" placeholder="1" aria-describedby="sizing-addon1"/>
+               </div> 
+              <div class="col-sm-1 input-lg"> 
+                  <input type="text" name="total" id="total"/>
+             </div> 
+            </div>
           </div>
-       </div><!-------------    end of game instructions ------------->
-       <div class="col-lg-12 col-md-12 col-sm-12 game-definition">
-          <div class="panel panel-default">
-              <div class="panel-body">
-                <h2 class="lead"> Flip the card to see all the cool stuff about the letters of the alphabet. <br> Hint, move the mouse over the card ;-) <h2>
-              </div>
+<!--             <p class="lead"> Basic panel example</p>-->
           </div>
-       </div><!--  end of game instructions -->
-   </div>
-   <div class="row card-play-row">
-    <div class="">
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Aa</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">A&nbsp;a</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
+        </div>  
         </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Bb</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">B&nbsp;b</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">ball</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Cc</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">C&nbsp;c</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">Car</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     </div>
-   </div><!--   end of row-->
-   <div class="row card-play-row">
-    <div class="container-fluid">
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Dd</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">D&nbsp;d</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">Diamond</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Ee</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">E&nbsp;e</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">Envelope</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Ff</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">F&nbsp;f</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  <!-- end of flipper -->
-     </div><!--     end of card front and back area-------------------------------------->
-     </div>
-   </div><!--   end of row-->
-   <div class="row card-play-row">
-    <div class="">
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Gg</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">G&nbsp;g</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Hh</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">H&nbsp;h</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-card">
-               <br>
-                <h1 class="front-letter-style">Ii</h1>
-                <br>
-            </div>
-            <div class="back alphabet-card">
-               <br>
-               <h1 class="apple">I&nbsp;i</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     </div>
-   </div><!--   end of row-->
-   <div class="row card-play-row">
-    <div class="">
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Jj</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">J&nbsp;j</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Kk</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">K&nbsp;k</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Ll</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">L&nbsp;l</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     </div>
-   </div><!--   end of row-->
-   <div class="row card-play-row">
-    <div class="">
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Mm</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">M&nbsp;m</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Nn</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">N&nbsp;n</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Oo</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">O&nbsp;o</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     </div>
-   </div><!--   end of row-->
-   <div class="row card-play-row">
-    <div class="">
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Pp</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">P&nbsp;p</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Qq</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">Q&nbsp;q</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Rr</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">R&nbsp;r</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     </div>
-   </div><!--   end of row-->
-   <div class="row card-play-row">
-    <div class="">
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Ss</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">S&nbsp;s</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Tt</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">T&nbsp;t</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Uu</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">U&nbsp;u</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     </div>
-   </div><!--   end of row-->
-   <div class="row card-play-row">
-    <div class="">
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Vv</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">V&nbsp;v</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Ww</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">W&nbsp;w</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Xx</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">X&nbsp;x</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     </div>
-   </div><!--   end of row-->
-   <div class="row card-play-row">
-    <div class="">
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Yy</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">Y&nbsp;y</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="front-letter-style">Zz</h1>
-                <br>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">Z&nbsp;z</h1>
-               <hr>
-               <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-               <br>
-               <br>
-                <p class="lead">apple</p>
-                <br>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     <div class="col-md-4 ">
-      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-            <div class="front alphabet-cards">
-               <br>
-                <h1 class="">Now You Know Your ABC's!</h1>
-                <br>
-                <h1 class=""><i class="fa fa-smile-o fa-2x" aria-hidden="true"></i></h1>
-            </div>
-            <div class="back alphabet-cards">
-               <br>
-               <h1 class="apple">Yay! You did it!</h1>
-               <hr>
-                <i class="fa fa-apple fa-4x apple" aria-hidden="true"></i>
-            </div>
-        </div>
-     </div>  
-     </div><!--     end of card front and back area-------------------------------------->
-     </div>
-   </div><!--   end of row-->
-</div>
+        </div><!-- container fluid -->
+      </div><!-- end of row -->
+      </Section>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
