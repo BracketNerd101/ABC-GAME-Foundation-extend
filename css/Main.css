@@ -325,6 +325,44 @@ body {
 .add-game {
     
     height: inherit;
+    margin-top:10rem;
+}
+
+.reg-card {
+    height: inherit;
+    width: inherit;
+    background-color: #ffffff;   
+}
+
+.adding-start {
+    
+    
+}
+
+.solution-area {
+    
+}
+
+.large-numbers {
+    
+    font-size: 15rem;
+    text-align: center;
+    color:#333333;
+    
+}
+
+.plus-position {
+    
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+
+.equal-sign-style {
+    color: #333333;
+    border: 5px solid;
+    width: 50%;
+    align-content: flex-start;
 }
 
 input {
