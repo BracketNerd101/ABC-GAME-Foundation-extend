@@ -1,0 +1,458 @@
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>ABC GAME FOR AURIA</title>
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/Main.css">
+      <!--    card flip animation -->
+      <link rel="stylesheet" href="css/card-flip.css">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!--    card flip animation -->
+      <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+   </head>
+   <body>
+   <div class="row">
+         <nav class="navbar navbar-default nav-style-position navbar-fixed-top" role="navigation">
+            <div class="container">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand visible-xs-inline-block logo-link" href="">ABC's</a>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse navbar-ex1-collapse">
+                  <ul class="navbar-nav pill-placement-style nav js-nav-add-active-class">
+                      <li><a href="index.html">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;Home&nbsp;&nbsp;</button>
+                          </a>
+                      </li>
+                      <li><a href="add-game.html">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;123's&nbsp;&nbsp;</button>
+                          </a>
+                      </li>
+                      <li><a href="index.html">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;ABC's&nbsp;&nbsp;</button>
+                          </a>
+                      </li>
+                      <li><a href="instructions.html">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;Instructions&nbsp;&nbsp;</button>
+                          </a>
+                      </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right hidden-xs">
+                     <a type="button" class="navbar-btn btn btn-gradient-blue logo-link" am-latosans="bold" href="index.html">ABC's</a>
+                  </ul>
+               </div>
+               <!-- /.navbar-collapse -->
+            </div>
+         </nav>
+         <!--  End of the nav area-->
+      </div>
+      <!--  End of the row -->
+      <div class="jumbotron col-sm-12 col-md-12 col-lg-12 home-banner-add">
+         <div class="container">
+            <h1 class="header-text">Hello Auria! <br> Let's learn how to add.</h1>
+            <div class="row">
+               <div class="col-md-12 col-sm-12 col-lg-12 center-buttons">
+                  <button type="button" class="btn btn-lg btn-success game-head-buttons indivisual-links">&nbsp;&nbsp;Lets play&nbsp;&nbsp;</button> <!--Or &nbsp; &nbsp; &nbsp;-->
+               </div>
+               <!-- end of center-buttons -->
+            </div>
+            <!--end of row -->
+         </div>
+         <!-- end of container-->
+      </div>
+      <div class="add-game">
+          <div class="container">
+                     <div class="game-station">
+                 <div class="col-lg-12 col-md-12 col-sm-12 game-definition">
+                    <div class="panel panel-default">
+                       <div class=" row panel-body">
+                          <div class="col-sm-12 col-md-12 col-lg-12">
+                             <h2 class="text-success">How to play:</h2>
+                          </div>
+                          <h2 class="lead">
+                          Hi Auria.&nbsp; This will help teach you how to add up to 10.<br> Play with your mom, dad and or your sister! Have fun. <br> Hint: move the mouse over the ? mark to see the answer. 
+                          <h2>
+                       </div>
+                    </div>
+                 </div>
+                 <!--  end of game instructions -->
+              </div>
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+                 <div class="row col-lg-10 container adding-start">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <h2><i class="fa fa-plus fa-3x" aria-hidden="true"></i></h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <hr class="equal-sign-style">
+                          <br>
+                          <br>
+                          <hr class="equal-sign-style"> 
+                      </div>
+                 </div><!-- adding-start -->
+                <div class="col-lg-2 col-md-2 col-sm-2 solution-area">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                     <div class="front number-cards number-card-style">
+                        <br>
+                        <h1 class="front-answer-style"><i class="fa fa-smile-o fa-3x" aria-hidden="true"></i></h1>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="back number-cards-back">
+                        <br>
+                        <h1 class="asnwer-back-style">2</h1>
+                        <br>
+                     </div> <!-- end of back card -->
+                  </div><!-- end of flipper -->
+               </div> <!-- end of flipper container-->
+                </div> 
+              </div><!-- end of row -->
+          </div>
+      </div>
+      <div class="add-game">
+          <div class="container">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+                 <div class="row col-lg-10 container adding-start">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <h2><i class="fa fa-plus fa-3x" aria-hidden="true"></i></h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">2</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <hr class="equal-sign-style">
+                          <br>
+                          <br>
+                          <hr class="equal-sign-style"> 
+                      </div>
+                 </div><!-- adding-start -->
+                <div class="col-lg-2 col-md-2 col-sm-2 solution-area">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                     <div class="front number-cards number-card-style">
+                        <br>
+                        <h1 class="front-answer-style"><i class="fa  fa-smile-o fa-3x" aria-hidden="true"></i></h1>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="back number-cards-back">
+                        <br>
+                        <h1 class="asnwer-back-style">3</h1>
+                        <br>
+                     </div> <!-- end of back card -->
+                  </div><!-- end of flipper -->
+               </div> <!-- end of flipper container-->
+                </div> 
+              </div><!-- end of row -->
+          </div>
+      </div>
+      <div class="add-game">
+          <div class="container">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+                 <div class="row col-lg-10 container adding-start">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <h2><i class="fa fa-plus fa-3x" aria-hidden="true"></i></h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">3</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <hr class="equal-sign-style">
+                          <br>
+                          <br>
+                          <hr class="equal-sign-style"> 
+                      </div>
+                 </div><!-- adding-start -->
+                <div class="col-lg-2 col-md-2 col-sm-2 solution-area">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                     <div class="front number-cards number-card-style">
+                        <br>
+                        <h1 class="front-answer-style"><i class="fa  fa-smile-o fa-3x" aria-hidden="true"></i></h1>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="back number-cards-back">
+                        <br>
+                        <h1 class="asnwer-back-style">4</h1>
+                        <br>
+                     </div> <!-- end of back card -->
+                  </div><!-- end of flipper -->
+               </div> <!-- end of flipper container-->
+                </div> 
+              </div><!-- end of row -->
+          </div>
+      </div>
+      <div class="add-game">
+          <div class="container">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+                 <div class="row col-lg-10 container adding-start">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <h2><i class="fa fa-plus fa-3x" aria-hidden="true"></i></h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">4</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <hr class="equal-sign-style">
+                          <br>
+                          <br>
+                          <hr class="equal-sign-style"> 
+                      </div>
+                 </div><!-- adding-start -->
+                <div class="col-lg-2 col-md-2 col-sm-2 solution-area">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                     <div class="front number-cards number-card-style">
+                        <br>
+                        <h1 class="front-answer-style"><i class="fa  fa-smile-o fa-3x" aria-hidden="true"></i></h1>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="back number-cards-back">
+                        <br>
+                        <h1 class="asnwer-back-style">5</h1>
+                        <br>
+                     </div> <!-- end of back card -->
+                  </div><!-- end of flipper -->
+               </div> <!-- end of flipper container-->
+                </div> 
+              </div><!-- end of row -->
+          </div>
+      </div>
+      <div class="add-game">
+          <div class="container">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+                 <div class="row col-lg-10 container adding-start">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <h2><i class="fa fa-plus fa-3x" aria-hidden="true"></i></h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">5</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <hr class="equal-sign-style">
+                          <br>
+                          <br>
+                          <hr class="equal-sign-style"> 
+                      </div>
+                 </div><!-- adding-start -->
+                <div class="col-lg-2 col-md-2 col-sm-2 solution-area">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                     <div class="front number-cards number-card-style">
+                        <br>
+                        <h1 class="front-answer-style"><i class="fa  fa-smile-o fa-3x" aria-hidden="true"></i></h1>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="back number-cards-back">
+                        <br>
+                        <h1 class="asnwer-back-style">6</h1>
+                        <br>
+                     </div> <!-- end of back card -->
+                  </div><!-- end of flipper -->
+               </div> <!-- end of flipper container-->
+                </div> 
+              </div><!-- end of row -->
+          </div>
+      </div>
+      <div class="add-game">
+          <div class="container">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+                 <div class="row col-lg-10 container adding-start">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <h2><i class="fa fa-plus fa-3x" aria-hidden="true"></i></h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">6</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <hr class="equal-sign-style">
+                          <br>
+                          <br>
+                          <hr class="equal-sign-style"> 
+                      </div>
+                 </div><!-- adding-start -->
+                <div class="col-lg-2 col-md-2 col-sm-2 solution-area">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                     <div class="front number-cards number-card-style">
+                        <br>
+                        <h1 class="front-answer-style"><i class="fa  fa-smile-o fa-3x" aria-hidden="true"></i></h1>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="back number-cards-back">
+                        <br>
+                        <h1 class="asnwer-back-style">7</h1>
+                        <br>
+                     </div> <!-- end of back card -->
+                  </div><!-- end of flipper -->
+               </div> <!-- end of flipper container-->
+                </div> 
+              </div><!-- end of row -->
+          </div>
+      </div>
+      <div class="add-game">
+          <div class="container">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+                 <div class="row col-lg-10 container adding-start">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <h2><i class="fa fa-plus fa-3x" aria-hidden="true"></i></h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">7</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <hr class="equal-sign-style">
+                          <br>
+                          <br>
+                          <hr class="equal-sign-style"> 
+                      </div>
+                 </div><!-- adding-start -->
+                <div class="col-lg-2 col-md-2 col-sm-2 solution-area">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                     <div class="front number-cards number-card-style">
+                        <br>
+                        <h1 class="front-answer-style"><i class="fa  fa-smile-o fa-3x" aria-hidden="true"></i></h1>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="back number-cards-back">
+                        <br>
+                        <h1 class="asnwer-back-style">8</h1>
+                        <br>
+                     </div> <!-- end of back card -->
+                  </div><!-- end of flipper -->
+               </div> <!-- end of flipper container-->
+                </div> 
+              </div><!-- end of row -->
+          </div>
+      </div>
+      <div class="add-game">
+          <div class="container">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+                 <div class="row col-lg-10 container adding-start">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <h2><i class="fa fa-plus fa-3x" aria-hidden="true"></i></h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">8</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <hr class="equal-sign-style">
+                          <br>
+                          <br>
+                          <hr class="equal-sign-style"> 
+                      </div>
+                 </div><!-- adding-start -->
+                <div class="col-lg-2 col-md-2 col-sm-2 solution-area">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                     <div class="front number-cards number-card-style">
+                        <br>
+                        <h1 class="front-answer-style"><i class="fa  fa-smile-o fa-3x" aria-hidden="true"></i></h1>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="back number-cards-back">
+                        <br>
+                        <h1 class="asnwer-back-style">9</h1>
+                        <br>
+                     </div> <!-- end of back card -->
+                  </div><!-- end of flipper -->
+               </div> <!-- end of flipper container-->
+                </div> 
+              </div><!-- end of row -->
+          </div>
+      </div>
+      <div class="add-game">
+          <div class="container">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+                 <div class="row col-lg-10 container adding-start">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">1</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <h2><i class="fa fa-plus fa-3x" aria-hidden="true"></i></h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <h2 class="large-numbers">9</h2>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 plus-position">
+                          <hr class="equal-sign-style">
+                          <br>
+                          <br>
+                          <hr class="equal-sign-style"> 
+                      </div>
+                 </div><!-- adding-start -->
+                <div class="col-lg-2 col-md-2 col-sm-2 solution-area">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                     <div class="front number-cards number-card-style">
+                        <br>
+                        <h1 class="front-answer-style"><i class="fa  fa-smile-o fa-3x" aria-hidden="true"></i></h1>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="back number-cards-back">
+                        <br>
+                        <h1 class="asnwer-back-style">10</h1>
+                        <br>
+                     </div> <!-- end of back card -->
+                  </div><!-- end of flipper -->
+               </div> <!-- end of flipper container-->
+                </div> 
+              </div><!-- end of row -->
+          </div>
+      </div>
+      
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
