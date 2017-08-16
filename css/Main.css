@@ -1,5 +1,5 @@
 body {
-	font-size: 1rem;
+	font-size: 14px;
 /*	background-color: #1E90FF;*/
     background: red; /* For browsers that do not support gradients */    
     background: -webkit-linear-gradient(left top, #1E90FF, #FFF); /* For Safari 5.1 to 6.0 */
@@ -374,3 +374,12 @@ input {
 .qty {
     
 }
+
+
+.footer-style {
+    
+    font-size: 4rem;
+    
+    
+}
+
