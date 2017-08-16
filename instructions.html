@@ -13,6 +13,9 @@
       <link rel="stylesheet" href="css/font-awesome.css">
       <link rel="stylesheet" href="css/font-awesome.min.css">
       <!--    card flip animation -->
+      <!--      micro animiation link--> 
+      <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+       <!--      micro animiation link-->
       <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
@@ -63,7 +66,7 @@
       <!--  End of the row -->
       <div class="jumbotron col-sm-12 col-md-12 col-lg-12 home-banner-add">
          <div class="container">
-            <h1 class="header-text">Hello Auria! <br> Here you can see how the games work.</h1>
+            <h1 class="header-text wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.2s">Hello Auria! <br> Here you can see how the games work.</h1>
             <div class="row">
                <div class="col-md-12 col-sm-12 col-lg-12 center-buttons">
                </div>
@@ -76,10 +79,10 @@
       <div class="add-game">
           <div class="container">
                      <div class="game-station">
-                 <div class="col-lg-12 col-md-12 col-sm-12 game-definition">
+                 <div class="col-lg-12 col-md-12 col-sm-12 game-definition wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
                     <div class="panel panel-default">
                        <div class=" row panel-body">
-                          <div class="col-sm-12 col-md-12 col-lg-12">
+                          <div class="col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.8s">
                              <h2 class="text-success">How to play:</h2>
                           </div>
                           <h2 class="lead">
@@ -90,7 +93,7 @@
                  </div>
                  <!--  end of game instructions -->
               </div>
-              <div class="row card-play-row">
+              <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-md-4 col-lg-4 col-sm-12 alphabet-cards ">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -157,7 +160,7 @@
             <!------- end of card front and back area-------------------------------------->
          </div>
       </div>
-              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
                  <div class="row col-lg-10 container adding-start">
                       <div class="col-lg-3 col-md-3 col-sm-3">
                           <h2 class="large-numbers">1</h2>
@@ -198,5 +201,9 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
    </body>
 </html>

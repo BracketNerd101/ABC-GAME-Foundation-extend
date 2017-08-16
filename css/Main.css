@@ -12,6 +12,11 @@ body {
 	/*    font-family: 'Space Mono', monospace;*/
 }
 
+/*  data-wow-offset="10"  */
+
+.wow { visibility: hidden; 
+}
+
 .nav-style-position {
 	height: 12rem;
     height: inherit;
