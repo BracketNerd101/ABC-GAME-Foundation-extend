@@ -70,7 +70,7 @@
             <h1 class="header-text wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0s">Hello Auria! <br> Let's learn how to add.</h1>
             <div class="row">
                <div class="col-md-12 col-sm-12 col-lg-12 center-buttons">
-                  <button type="button" class="btn btn-lg btn-success game-head-buttons indivisual-links wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.4s">&nbsp;&nbsp;Lets play&nbsp;&nbsp;</button> <!--Or &nbsp; &nbsp; &nbsp;-->
+                   <a href="#game-one" type="button" class="btn btn-lg btn-success game-head-buttons indivisual-links wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.4s">&nbsp;&nbsp;Lets play&nbsp;&nbsp;</a> <!--Or &nbsp; &nbsp; &nbsp;-->
                </div>
                <!-- end of center-buttons -->
             </div>
@@ -95,7 +95,7 @@
                  </div>
                  <!--  end of game instructions -->
               </div>
-              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="50" data-wow-delay="0.9s">
+              <div id="game-one" class="row col-sm-12 col-md-12 col-lg-12 reg-card wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="50" data-wow-delay="0.9s">
                  <div class="row col-lg-10 container adding-start">
                       <div class="col-lg-3 col-md-3 col-sm-3">
                           <h2 class="large-numbers">1</h2>
@@ -335,7 +335,7 @@
       </div>
       <div class="add-game">
           <div class="container">
-              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="50" data-wow-delay="0.7s">
                  <div class="row col-lg-10 container adding-start">
                       <div class="col-lg-3 col-md-3 col-sm-3">
                           <h2 class="large-numbers">1</h2>
@@ -375,7 +375,7 @@
       </div>
       <div class="add-game">
           <div class="container">
-              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="50" data-wow-delay="0.7s">
                  <div class="row col-lg-10 container adding-start">
                       <div class="col-lg-3 col-md-3 col-sm-3">
                           <h2 class="large-numbers">1</h2>
@@ -415,7 +415,7 @@
       </div>
       <div class="add-game">
           <div class="container">
-              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card">
+              <div class="row col-sm-12 col-md-12 col-lg-12 reg-card wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="50" data-wow-delay="0.7s">
                  <div class="row col-lg-10 container adding-start">
                       <div class="col-lg-3 col-md-3 col-sm-3">
                           <h2 class="large-numbers">1</h2>
@@ -453,11 +453,17 @@
               </div><!-- end of row -->
           </div>
       </div>
-      
+      <div class="row">
+   <nav class="navbar navbar-default footer-width reg-card wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s"> 
+     <h2 class="footer-text">Yay! Auria</h2>
+      <h2 class="footer-text">You finished!&nbsp;<i class="fa fa-smile-o text-success fa-2x" aria-hidden="true"></i></h2>
+   </nav>
+</div>
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/smooth.js"></script>
       <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();

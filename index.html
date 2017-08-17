@@ -67,11 +67,11 @@
       <!--  End of the row -->
       <div class="jumbotron col-sm-12 col-md-12 col-lg-12 home-banner">
          <div class="container">
-            <h1 class="header-text wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0s"> A fun game to learn the essentials. <br> Easy, Fun and Fast.</h1>
+            <h1 class="header-text wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s"> A fun game to learn the essentials. <br> Easy, Fun and Fast.</h1>
             <div class="row">
                <div class="col-md-12 col-sm-12 col-lg-12 center-buttons wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.3s">
-                  <button type="button" class="btn btn-lg btn-success game-head-buttons indivisual-links">&nbsp;&nbsp;Lets play&nbsp;&nbsp;</button> <!--Or &nbsp; &nbsp; &nbsp;-->
-                  <button type="button" class="btn btn-lg btn-info game-head-buttons indivisual-links">&nbsp;&nbsp;Play 1..2..3&nbsp;&nbsp;</button>
+                   <a href="#game-one" type="button" class="btn btn-lg btn-success game-head-buttons indivisual-links">&nbsp;&nbsp;Lets play&nbsp;&nbsp;
+                   </a> <!--Or &nbsp; &nbsp; &nbsp;-->
                </div>
                <!-- end of center-buttons -->
             </div>
@@ -140,7 +140,7 @@
                </div>
             </div>
             <!------- end of card front and back area-------------------------------------->
-            <div class="col-md-4 col-lg-4 col-sm-12 alphabet-cards ">
+            <div id="game-one" class="col-md-4 col-lg-4 col-sm-12 alphabet-cards ">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                   <div class="flipper">
                      <div class="front alphabet-card">
@@ -675,11 +675,18 @@
          <!-- end of container-fluid -->
       </div>
       <!-- End of Row -->
+      <div class="row">
+           <nav class="navbar navbar-default footer-width reg-card wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s"> 
+             <h2 class="footer-text">Yay! Auria</h2>
+              <h2 class="footer-text">You finished!&nbsp;<i class="fa fa-smile-o text-success fa-2x" aria-hidden="true"></i></h2>
+           </nav>
+</div>
       <!--</div>    End of game-app-->
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/smooth.js"></script>
       <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
