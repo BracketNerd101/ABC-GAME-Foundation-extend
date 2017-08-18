@@ -44,3 +44,48 @@
 .back {
 	transform: rotateY(180deg);
 }
+
+
+
+/*--------------------------------------------------------------------------Addition Card style------------------*/
+
+
+.front-answer-style {
+    
+    background-color:#fff;
+    width: inherit;
+    height: inherit;
+    border: 1px solid limegreen;
+    
+}
+
+
+.number-card-style {
+    
+    width: inherit;
+    height: inherit;
+  
+}
+
+.asnwer-back-style {
+    font-size: 10rem;
+    color: #ffffff;
+    background-color: limegreen;
+    height: 
+    
+}
+
+.number-cards {
+	width:100% ;
+	height: 12rem;
+	text-align: center;
+	border-radius: 6px;
+}
+
+
+.number-cards-back {
+	width:100% ;
+	height: 10rem;
+	text-align: center;
+	border-radius: 6px;
+}

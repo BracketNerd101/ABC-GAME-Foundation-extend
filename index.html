@@ -11,9 +11,14 @@
       <link rel="stylesheet" href="css/Main.css">
       <!--    card flip animation -->
       <link rel="stylesheet" href="css/card-flip.css">
-      <link rel="stylesheet" href="css/font-awesome.css">
-      <link rel="stylesheet" href="css/font-awesome.min.css">
+<!--      <link rel="stylesheet" href="css/font-awesome.css">-->
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
       <!--    card flip animation -->
+      <!--   cdn for font awesome   -->
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <!--      micro animiation link--> 
+      <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+       <!--      micro animiation link-->
       <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
@@ -39,12 +44,12 @@
                         <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;Home&nbsp;&nbsp;</button>
                           </a>
                       </li>
-                      <li><a href="#">
-                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;ABC's&nbsp;&nbsp;</button>
+                      <li><a href="add-game.html">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;123's&nbsp;&nbsp;</button>
                           </a>
                       </li>
-                      <li><a href="#">
-                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;123's&nbsp;&nbsp;</button>
+                      <li><a href="index.html">
+                        <button type="button" class="btn btn-info indivisual-links">&nbsp;&nbsp;ABC's&nbsp;&nbsp;</button>
                           </a>
                       </li>
                       <li><a href="instructions.html">
@@ -53,7 +58,7 @@
                       </li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right hidden-xs">
-                     <a type="button" class="navbar-btn btn btn-gradient-blue logo-link" am-latosans="bold" href="">ABC's</a>
+                     <a type="button" class="navbar-btn btn btn-gradient-blue logo-link" am-latosans="bold" href="index.html">ABC's</a>
                   </ul>
                </div>
                <!-- /.navbar-collapse -->
@@ -64,11 +69,11 @@
       <!--  End of the row -->
       <div class="jumbotron col-sm-12 col-md-12 col-lg-12 home-banner">
          <div class="container">
-            <h1 class="header-text"> A fun game to learn the essentials. <br> Easy, Fun and Fast.</h1>
+            <h1 class="header-text wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s"> A fun game to learn the essentials. <br> Easy, Fun and Fast.</h1>
             <div class="row">
-               <div class="col-md-12 col-sm-12 col-lg-12 center-buttons">
-                  <button type="button" class="btn btn-lg btn-success game-head-buttons indivisual-links">&nbsp;&nbsp;Lets play&nbsp;&nbsp;</button> <!--Or &nbsp; &nbsp; &nbsp;-->
-                  <button type="button" class="btn btn-lg btn-info game-head-buttons indivisual-links">&nbsp;&nbsp;Play 1..2..3&nbsp;&nbsp;</button>
+               <div class="col-md-12 col-sm-12 col-lg-12 center-buttons wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.3s">
+                   <a href="#game-one" type="button" class="btn btn-lg btn-success game-head-buttons indivisual-links">&nbsp;&nbsp;Lets play&nbsp;&nbsp;
+                   </a> <!--Or &nbsp; &nbsp; &nbsp;-->
                </div>
                <!-- end of center-buttons -->
             </div>
@@ -79,7 +84,7 @@
       <!--   End of the home-banner area-->
       <!--<div id="game-app row">-->
       <div class="game-station">
-         <div class="col-lg-12 col-md-12 col-sm-12 game-definition">
+         <div class="col-lg-12 col-md-12 col-sm-12 game-definition wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.41s">
             <div class="panel panel-default">
                <div class=" row panel-body">
                   <div class="col-sm-12 col-md-12 col-lg-12">
@@ -93,7 +98,7 @@
          </div>
          <!--  end of game instructions -->
       </div>
-      <div class="row card-play-row">
+      <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-md-4 col-lg-4 col-sm-12 alphabet-cards ">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -137,7 +142,7 @@
                </div>
             </div>
             <!------- end of card front and back area-------------------------------------->
-            <div class="col-md-4 col-lg-4 col-sm-12 alphabet-cards ">
+            <div id="game-one" class="col-md-4 col-lg-4 col-sm-12 alphabet-cards ">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                   <div class="flipper">
                      <div class="front alphabet-card">
@@ -161,7 +166,7 @@
          </div>
       </div>
       <!--   end of row-->
-      <div class="row card-play-row">
+      <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-sm-12 col-md-4 col-lg-4 alphabet-cards">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -228,7 +233,7 @@
          <!-- end of container-fluid -->
       </div>
       <!-- End of Row -->
-      <div class="row card-play-row">
+      <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-sm-12 col-md-4 col-lg-4 alphabet-cards">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -294,7 +299,7 @@
          <!-- end of container-fluid -->
       </div>
       <!-- End of Row -->
-      <div class="row card-play-row">
+      <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-sm-12 col-md-4 col-lg-4 alphabet-cards">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -360,7 +365,7 @@
          <!-- end of container-fluid -->
       </div>
       <!-- End of Row -->
-      <div class="row card-play-row">
+      <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-sm-12 col-md-4 col-lg-4 alphabet-cards">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -426,7 +431,7 @@
          <!-- end of container-fluid -->
       </div>
       <!-- End of Row -->
-      <div class="row card-play-row">
+      <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-sm-12 col-md-4 col-lg-4 alphabet-cards">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -493,7 +498,7 @@
          <!-- end of container-fluid -->
       </div>
       <!-- End of Row -->
-      <div class="row card-play-row">
+      <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-sm-12 col-md-4 col-lg-4 alphabet-cards">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -559,7 +564,7 @@
          <!-- end of container-fluid -->
       </div>
       <!-- End of Row -->
-      <div class="row card-play-row">
+      <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-sm-12 col-md-4 col-lg-4 alphabet-cards">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -625,7 +630,7 @@
          <!-- end of container-fluid -->
       </div>
       <!-- End of Row -->
-      <div class="row card-play-row">
+      <div class="row card-play-row wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s">
          <div class="container-fluid">
             <div class="col-sm-12 col-md-4 col-lg-4 alphabet-cards">
                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -672,10 +677,21 @@
          <!-- end of container-fluid -->
       </div>
       <!-- End of Row -->
+      <div class="row">
+           <nav class="navbar navbar-default footer-width reg-card wow fadeInUp" data-wow-duration="0.9s" data-wow-offset="40" data-wow-delay="0.6s"> 
+             <h2 class="footer-text">Yay! Auria</h2>
+              <h2 class="footer-text">You finished!&nbsp;<i class="fa fa-smile-o text-success fa-2x" aria-hidden="true"></i></h2>
+           </nav>
+</div>
       <!--</div>    End of game-app-->
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/smooth.js"></script>
+      <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
    </body>
 </html>

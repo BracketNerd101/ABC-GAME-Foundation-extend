@@ -1,12 +1,12 @@
 body {
-	font-size: 1rem;
+	font-size: 14px ;
 /*	background-color: #1E90FF;*/
     background: red; /* For browsers that do not support gradients */    
     background: -webkit-linear-gradient(left top, #1E90FF, #FFF); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #1E90FF, #FFF); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, #1E90FF, #FFF); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #1E90FF, #FFF); /* Standard syntax (must be last) */
-	min-height: 2500px;
+	
 	/*font-family: 'Raleway', sans-serif;*/
 	/*    font-family: 'Courgette', cursive;*/
 	/*    font-family: 'Space Mono', monospace;*/
@@ -325,14 +325,72 @@ body {
 .add-game {
     
     height: inherit;
+    margin-top:10rem;
+}
+
+.reg-card {
+    height: inherit;
+    width: inherit;
+    background-color: #ffffff; 
+    margin-bottom: 4rem;
+}
+
+.adding-start {
+    
+    
+}
+
+.solution-area {
+    
+}
+
+.large-numbers {
+    
+    font-size: 15rem;
+    text-align: center;
+    color:#333333;
+    
+}
+
+.plus-position {
+    
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+
+.equal-sign-style {
+    color: #333333;
+    border: 5px solid;
+    width: 50%;
+    align-content: flex-start;
 }
 
 input {
-    height: 6rem;;
+    height: 6rem;
     
 }
 
 
 .qty {
+    
+}
+
+.footer-width {
+    
+    width: 100%;
+    height:inherit;
+    margin-top: 35rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.footer-text {
+    
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    font-size: 7rem;
+    font-family: 'Raleway', sans-serif;
+    color:#777;
     
 }
